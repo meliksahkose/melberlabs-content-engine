@@ -19,4 +19,4 @@ Designed and built by [İbrahim Melikşah Köse](https://github.com/meliksahkose
 - **Stack:** Python · ffmpeg · faster-whisper · ElevenLabs API · Apify · Remotion (React) · HyperFrames/GSAP · After Effects/Premiere scripting (ExtendScript, CEP) · Playwright · WSL2 render workers.
 
 ---
-<sub>Source code is private. Happy to demo it in an interview: meliksahkose90@gmail.com</sub>
+<sub>Source code is private. Happy to demo it in an interview: meliksah.kose1@hotmail.com</sub>
