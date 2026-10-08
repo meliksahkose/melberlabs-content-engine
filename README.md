@@ -1,6 +1,6 @@
 # MelberLabs Content Engine
 
-> A brand-agnostic AI content system that plans, edits, voices and publishes short-form video and social posts, with capacity for **100–150 finished pieces a day**. It runs the social accounts of every MelberLabs app and is reused for client brands.
+> A brand-agnostic AI content system that plans, edits, voices and publishes short-form video and social posts, with capacity for **100–150 finished pieces a day**. It runs the social accounts of every MelberLabs app.
 
 Designed and built by [İbrahim Melikşah Köse](https://github.com/meliksahkose) at [MelberLabs](https://melberlabs.com)
 
@@ -14,7 +14,7 @@ Designed and built by [İbrahim Melikşah Köse](https://github.com/meliksahkose
 - **Studio app.** A local desktop UI per brand per day: produce, edit, post, engage, and a brief box that hands edits to a coding agent.
 
 ## Engineering decisions
-- **Config over code.** A new brand is a TOML file (voice, colours, handles, platform rules), which is why the same engine serves apps, e-commerce stores and client work.
+- **Config over code.** A new brand is a TOML file (voice, colours, handles, platform rules), which is why the same engine serves every app and new brands without code changes.
 - **Quality gates.** Automated audits check every render for unreadable source text, off-brand products and timing problems before a human sees it.
 - **Stack:** Python · ffmpeg · faster-whisper · ElevenLabs API · Apify · Remotion (React) · HyperFrames/GSAP · After Effects/Premiere scripting (ExtendScript, CEP) · Playwright · WSL2 render workers.
 
